@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Omar Al-Farajat",
-    "label": "Student",
+    "label": "Aspiring Game Developer",
     "picture": "https://omaralfarajat.github.io/images/Omar.png",
     "email": "omar.alfarajat@gmail.com",
     "phone": "",
@@ -32,57 +32,78 @@
       }
     ]
   },
-  "interests": [
-    {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-      ]
-    }
-  ],
   "skills": [
     {
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
+        "C#",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "JavaScript",
+        "SQL",
+        "PHP"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Unity",
+        "OpenGL",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Android Studio",
+        "Visual Studio",
+        "Photon Multiplayer Engine",
+        "GitHub Projects",
+        "Trello",
+        "Blender",
+        "GIMP",
+        "Windows",
+        "Ubuntu"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Concordia University, Montreal, CA",
+      "area": "Computer Science",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "2017-09-01",
+      "endDate": "2020-05-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+
+    {
+      "institution": "Concordia University, Montreal, CA",
+      "area": "Computer Aided Design (CAD/MCAD)",
+      "studyType": "Diploma",
+      "startDate": "2014-09-01",
+      "endDate": "2015-06-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+
+    {
+      "institution": "Concordia University, Montreal, CA",
+      "area": "Engineering (Dicontinued, 57/120 credits)",
+      "studyType": "B.S.",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-01",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+
+    {
+      "institution": "John Abbott College, Sainte-Anne-de-Bellevue, CA",
+      "area": "Commerce",
+      "studyType": "D.E.C.",
+      "startDate": "2006-09-01",
+      "endDate": "2009-06-01",
       "gpa": "",
       "courses": [
       ]
