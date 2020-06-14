@@ -1,39 +1,34 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Omar Al-Farajat",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/images/Omar.png",
+    "email": "omar.alfarajat@gmail.com",
+    "phone": "",
+    "website": "https://omaralfarajat.github.io",
+    "summary": "I am a recent graduate of Concordia University in Montreal, holding a Bachelor of Computer Science in Computer Games.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "",
+      "city": "Montreal",
+      "countryCode": "Canada",
+      "region": "Quebec"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "OmarAlFarajat",
+        "url": "https://github.com/OmarAlFarajat"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "omar-farajat",
+        "url": "https://www.linkedin.com/in/omar-farajat/"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "network": "facebook",
+        "username": "ofarajat",
+        "url": "https://www.facebook.com/ofarajat"
       }
     ]
   },
