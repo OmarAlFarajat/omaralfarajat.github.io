@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/chrono-abyss_thumbnail.png
+image: images/chrono-abyss_thumbnail.jpg
 title: Chrono Abyss
 permalink: projects/chronoabyss
 # All dates must be YYYY-MM-DD format!
