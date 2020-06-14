@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/city-defense_thumbnail.png
+image: images/city-defense_thumbnail.jpg
 title: City Defense
 permalink: projects/citydefense
 # All dates must be YYYY-MM-DD format!
