@@ -14,7 +14,7 @@ labels:
 summary: A 3D real-time strategy where you're tasked with defending a city from civil unrest.  
 ---
 
-Source: <a href="https://github.com/zee366/CityDefense"><i class="large github icon "></i>zee366/CityDefense</a>
+Source: <a href="https://github.com/zee366/CityDefense"><i class="large github icon "></i>zee366/CityDefense</a>  
 
-Test: <a href="https://github.com/zee366/CityDefense"><i class="large youtube icon "></i>zee366/CityDefense</a>
+Video: <a href="https://www.youtube.com/watch?v=AyalH6pdn0c"><i class="large youtube icon "></i>City Defense Demo</a>
 

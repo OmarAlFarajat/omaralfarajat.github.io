@@ -13,7 +13,8 @@ labels:
 summary: A recreation of the New Haven board using C++ and the CImg header-only library for visualization.
 ---
 
-Source: <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>
+Source: <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>  
 
+Video: <a href="https://youtu.be/8jRI4ZnfOsM"><i class="large youtube icon "></i>New Haven Demo</a>
 
 
