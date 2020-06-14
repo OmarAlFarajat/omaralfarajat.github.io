@@ -37,6 +37,35 @@
       }
     ]
   },
+
+  "interests": [
+    {
+      "name": "game development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "3d animation",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "mobile development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "simulation",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "artificial intelligence",
+      "keywords": [
+      ]
+    }
+  ],
+
   "skills": [
     {
       "name": "Languages and Frameworks",
