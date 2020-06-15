@@ -5,7 +5,7 @@ image: images/chrono-abyss_thumbnail.jpg
 title: Chrono Abyss
 permalink: projects/chronoabyss
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-01
+date: 2020-06-15
 labels:
   - C#
   - Unity

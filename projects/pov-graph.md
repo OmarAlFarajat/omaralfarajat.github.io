@@ -5,7 +5,7 @@ image: images/pov-graph_thumbnail.jpg
 title: Points-of-Visibility Graph with A* Pathfinding
 permalink: projects/povgraph
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-01
+date: 2020-06-10
 labels:
   - C#
   - Unity

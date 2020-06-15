@@ -5,7 +5,7 @@ image: images/kinect-mocap_thumbnail.jpg
 title: Kinect Motion Capture
 permalink: projects/kinectmocap
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-01
+date: 2020-06-10
 labels:
   - C++
   - OpenGL

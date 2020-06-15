@@ -5,7 +5,7 @@ image: images/space-sim_thumbnail.jpg
 title: Space Simulation
 permalink: projects/spacesim
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-01
+date: 2020-06-09
 labels:
   - C++
   - OpenGL

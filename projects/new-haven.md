@@ -5,7 +5,7 @@ image: images/new-haven_thumbnail.jpg
 title: New Haven Board Game
 permalink: projects/newhaven
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-01
+date: 2020-06-14
 labels:
   - C++
   - CImg
