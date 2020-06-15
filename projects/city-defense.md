@@ -11,5 +11,5 @@ labels:
   - Unity
   - HTN Planner
   - GitHub
-summary: A 3D real-time strategy where you're tasked with defending a city from civil unrest. <a href="https://github.com/zee366/CityDefense"><i class="large github icon "></i></a> <a href="https://www.youtube.com/watch?v=AyalH6pdn0c"><i class="large youtube icon "></i></a>
+summary: <a href="https://github.com/zee366/CityDefense"><i class="large github icon "></i></a><a href="https://www.youtube.com/watch?v=AyalH6pdn0c"><i class="large youtube icon "></i></a>A 3D real-time strategy where you're tasked with defending a city from civil unrest.
 ---
