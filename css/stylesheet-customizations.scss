@@ -13,14 +13,26 @@ body {
 // Customize the menubar color
 .ui.menu {
     background: lighten(#279c5b,10%) !important;
-    color: white !important;}
+    color: white !important;
+    
+    &:hover {
+      color: white;
+      background-color: darken(#279c5b, 5%) ;
+    }
+  }
+
+  a.active.item, a.active.item:hover {
+    color: white;
+    background-color: lighten(#279c5b, 5%) ;
+  }
+}
 
 // Customize the home page icon colors
 .icon-color {
   color: #279c5b;
   
   &:hover {
-    background: darken(#279c5b,10%) !important;
+    background: darken(#279c5b, 5%) !important;
     color: white !important;
   }
 }
@@ -30,8 +42,18 @@ body {
   color: white !important;
 
   &:hover {
-    background: darken(#279c5b,10%) !important;
+    background: darken(#279c5b, 5%) !important;
     color: white !important;
+  }
+}
+
+// "Read More" buttons
+a.ui.bottom.attached.button {
+  color: white;
+  background: #279c5b;
+
+  &:hover {
+    background: darken(#279c5b, 5%);
   }
 }
 
