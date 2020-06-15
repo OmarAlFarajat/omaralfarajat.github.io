@@ -24,8 +24,9 @@ rouge-theme: colorful
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
+environment: production
 analytics:
-  provider: "google-gtag"
+  provider: "google-universal"
   google:
     tracking_id: "UA-167556789-2"
     anonymize_ip: false # default
