@@ -25,7 +25,7 @@ body {
   color: white !important;
 
   &:hover {
-    background: $uh-green !important;
+    background: darken(#279c5b,35%) !important;
     color: white !important;
   }
 }
