@@ -17,13 +17,12 @@ body {
     
     &:hover {
       color: white;
-      background-color: darken(#279c5b, 5%) ;
+      background-color: darken(#279c5b, 5%);
     }
-  }
 
   a.active.item, a.active.item:hover {
     color: white;
-    background-color: lighten(#279c5b, 5%) ;
+    background-color: lighten(#279c5b, 5%);
   }
 }
 
