@@ -18,6 +18,11 @@ body {
 // Customize the home page icon colors
 .icon-color {
   color: #279c5b;
+  
+  &:hover {
+    background: darken(#279c5b,10%) !important;
+    color: white !important;
+  }
 }
 
 .ui.basic.button, .ui.basic.buttons .button {
@@ -25,7 +30,7 @@ body {
   color: white !important;
 
   &:hover {
-    background: darken(#279c5b,35%) !important;
+    background: darken(#279c5b,10%) !important;
     color: white !important;
   }
 }
