@@ -12,8 +12,8 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-  // background: $background-start;
-}
+    background: darken(#279c5b,10%) !important;
+    color: white !important;}
 
 // Customize the home page icon colors
 .icon-color {
