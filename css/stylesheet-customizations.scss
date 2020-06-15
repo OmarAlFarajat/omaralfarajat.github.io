@@ -5,6 +5,8 @@
 // Put your custom CSS here if you want to override the defaults.
 // Here are some common customizations for colors
 
+$uh-green: #024731;
+
 // Customize the background color
 body {
   // background-color: #f2f2f2;;
@@ -12,36 +14,36 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-    background: lighten(#279c5b,10%) !important;
+    background: lighten($uh-green,10%) !important;
     color: white !important;
     
     &:hover {
       color: white;
-      background-color: darken(#279c5b, 5%);
+      background-color: darken($uh-green, 5%);
     }
 
   a.active.item, a.active.item:hover {
     color: white;
-    background-color: lighten(#279c5b, 5%);
+    background-color: lighten($uh-green, 5%);
   }
 }
 
 // Customize the home page icon colors
 .icon-color {
-  color: #279c5b;
+  color: $uh-green;
   
   &:hover {
-    background: darken(#279c5b, 5%) !important;
+    background: darken($uh-green, 5%) !important;
     color: white !important;
   }
 }
 
 .ui.basic.button, .ui.basic.buttons .button {
-  background: #279c5b !important;
+  background: $uh-green !important;
   color: white !important;
 
   &:hover {
-    background: darken(#279c5b, 5%) !important;
+    background: darken($uh-green, 5%) !important;
     color: white !important;
   }
 }
@@ -49,15 +51,15 @@ body {
 // "Read More" buttons
 a.ui.bottom.attached.button {
   color: white;
-  background: #279c5b;
+  background: $uh-green;
 
   &:hover {
-    background: darken(#279c5b, 5%);
+    background: darken($uh-green, 5%);
   }
 }
 
 // Tag pill boxes
 div.ui.basic.label {
   color: white;
-  background: #279c5b;
+  background: $uh-green;
 }
