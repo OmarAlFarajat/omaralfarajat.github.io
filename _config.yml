@@ -24,4 +24,6 @@ rouge-theme: colorful
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
+google_analytics: UA-167556789-1 # your Google Analytics tracking ID here
+
 
