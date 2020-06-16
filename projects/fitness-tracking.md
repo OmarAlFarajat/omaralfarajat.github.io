@@ -10,7 +10,7 @@ labels:
   - Java
   - Android
   - GitHub
-summary: <a href="https://github.com/comp354-group-i-j/fitnesstracking"><i class="large github icon"></i></a><a href="https://www.youtube.com/watch?v=rrMi6l6N2rk"><i class="large youtube icon "></i></a>Interfaces with Endomondo to sync fitness training data (cycling) and make predictions based on moving averages.
+summary: <a href="https://github.com/comp354-group-i-j/fitnesstracking"><i class="large github icon"></i></a><a href="https://www.youtube.com/watch?v=rrMi6l6N2rk"><i class="large youtube icon "></i></a>Interfaces with an Endomondo account to sync fitness training data (cycling) and make predictions based on moving averages.
 ---
 *More information coming soon! In the meantime, please refer to the video and/or source code.*  
 

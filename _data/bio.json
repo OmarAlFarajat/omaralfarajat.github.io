@@ -123,7 +123,7 @@
 
     {
       "institution": "Concordia University, Montreal, CA",
-      "area": "Engineering (Dicontinued, 57/120 credits)",
+      "area": "Engineering (Discontinued, 57/120 credits)",
       "studyType": "B.S.",
       "startDate": "2009-09-01",
       "endDate": "2014-06-01",
@@ -147,7 +147,7 @@
     {
       "company": "Concordia University",
       "position": "Teaching Assistant",
-      "website": "https://www.concordia.ca/",
+      "website": "https://www.concordia.ca",
       "startDate": "2018-09-01",
       "endDate": "2019-12-01",
       "summary": "COMP 228 System Hardware",
@@ -160,7 +160,7 @@
     {
       "company": "The YMCAs of Quebec",
       "position": "Member Service Specialist",
-      "website": "https://www.ymcaquebec.org/",
+      "website": "https://www.ymcaquebec.org",
       "startDate": "2009-06-01",
       "endDate": "2018-08-01",
       "summary": "",
@@ -173,7 +173,7 @@
     {
       "company": "Loans Canada",
       "position": "Customer Service Representative / Generalist",
-      "website": "https://www.loanscanada.ca/",
+      "website": "https://www.loanscanada.ca",
       "startDate": "2015-03-01",
       "endDate": "2017-05-01",
       "summary": "",
@@ -185,7 +185,6 @@
       ]
     }
   ],
-
 
   "references": [
     {
