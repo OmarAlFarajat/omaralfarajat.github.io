@@ -111,8 +111,8 @@ The above processes result in two isolated graphs, one for tiles and one for res
 
 The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. We can do this mathematically using the tile node ID as follows:  
 
-<img class="ui large centered image" src="../images/mino/maths.png"> 
-   
+<img class="ui large centered image" src="../images/mino/equation.png">  
+
 ```cpp
 for (int i = 0; i < totalNodes; i++)
 {
