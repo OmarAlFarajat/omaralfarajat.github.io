@@ -29,7 +29,7 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-<img class="ui medium centered image" src="../images/mino/test_gbmap.png"> 
+<img class="ui fluid centered image" src="../images/mino/test_gbmap.png"> 
 
 In GBMapLoader.cpp, the length and height values read from the map file are passed to the function Graph::makeGridGraph. Note that there are 4 resource nodes to ever tile node, so the length and height are both multiplied by 2 for the resource graph.  
 
@@ -56,4 +56,4 @@ for (int i = 0; i < totalNodes; i++)
 
 After both tile and resource graphs are created, they are linked using an algorithm. The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from the gbmap file.  
 
-<img class="ui large centered image" src="../images/mino/2x2_grid_visual.png">
+<img class="ui fluid centered image" src="../images/mino/2x2_grid_visual.png">
