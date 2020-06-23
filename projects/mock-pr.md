@@ -150,3 +150,8 @@ for (int i = 0; i < totalNodes; i++)
 The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from `test.gbmap`.  
 
 <img class="ui fluid rounded centered image" src="../images/mino/2x2_grid_visual.png">
+
+## Calculating resources harvested using conditional DFS
+In New Haven, players accumulate resources to construct buildings in their villages. Resources are accumulated by placing a harvest tile onto the game board. By matching adjacent resources, they are able to create chains of accumulating resources. In the example below, the player placed a harvest tile at row 2, column 2 (highlighted in blue). This results in an accumulation of 12 timber (red) and 4 sheep (green). 
+
+<img class="ui medium rounded centered image" src="../images/mino/adj.png"> 
