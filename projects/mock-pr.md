@@ -109,11 +109,11 @@ The above processes result in two isolated graphs, one for tiles and one for res
 
 <img class="ui large rounded centered image" src="../images/mino/resource_nodes.png"> 
 
-The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. We can do this mathematically using the tile node ID as follows:  
+The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. This correspondence is highlighted by the image directly above with the checkered pattern coloring of the resource nodes and the corresponding tile node ID in blue. In order for this to be done dynamically for any grid size and shape, we need to use the formulas below.  
 
 <img class="ui large rounded centered image" src="../images/mino/equation.png">  
 
-The equations above are applied in a for-loop on each of the tile nodes as shown below.  
+The equations above are implemented in a for-loop on each of the tile nodes as shown below.  
 
 ```cpp
 for (int i = 0; i < totalNodes; i++)
