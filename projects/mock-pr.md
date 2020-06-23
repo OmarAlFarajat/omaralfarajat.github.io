@@ -37,37 +37,37 @@ The gbmap file will result in the following gameboard:
 A while-loop iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this property can be used to include comments as is done in the test file with the '#' symbol.  
 
 ```cpp
-	while (inFile) {
-		getline(inFile, lineRead);
- 
-		bool whiteSpaced = true;
-		for (int i = 0; i < lineRead.length(); i++)
-			if (!isspace(lineRead.at(i))) {
-				whiteSpaced = false;
-				break;
-			}
+while (inFile) {
+	getline(inFile, lineRead);
 
-		if (lineRead.empty() || whiteSpaced)
-			continue;
-
-		stringstream strstr(lineRead);
-		istream_iterator<string> it(strstr);
-		istream_iterator<string> end; 
-		vector<string> results(it, end);
-
-		if (results[0].compare("LENGTH") == 0) 
-			length = std::stoi(results[1]);
-		else if (results[0].compare("HEIGHT") == 0) 
-			height = std::stoi(results[1]);	
-		else if (results[0].compare("RESOURCE") == 0){
-			resourceData[std::stoi(results[1])] = { strToEnum(results[2]), strToEnum(results[3]), strToEnum(results[4]), strToEnum(results[5]) };
-			resourceIndices.push_back(std::stoi(results[1]));
+	bool whiteSpaced = true;
+	for (int i = 0; i < lineRead.length(); i++)
+		if (!isspace(lineRead.at(i))) {
+			whiteSpaced = false;
+			break;
 		}
-		else if (results[0].compare("DISABLE") == 0) {
-			disableData.push_back(std::stoi(results[1]));
-		}
+
+	if (lineRead.empty() || whiteSpaced)
+		continue;
+
+	stringstream strstr(lineRead);
+	istream_iterator<string> it(strstr);
+	istream_iterator<string> end; 
+	vector<string> results(it, end);
+
+	if (results[0].compare("LENGTH") == 0) 
+		length = std::stoi(results[1]);
+	else if (results[0].compare("HEIGHT") == 0) 
+		height = std::stoi(results[1]);	
+	else if (results[0].compare("RESOURCE") == 0){
+		resourceData[std::stoi(results[1])] = { strToEnum(results[2]), strToEnum(results[3]), strToEnum(results[4]), strToEnum(results[5]) };
+		resourceIndices.push_back(std::stoi(results[1]));
 	}
-	inFile.close();
+	else if (results[0].compare("DISABLE") == 0) {
+		disableData.push_back(std::stoi(results[1]));
+	}
+}
+inFile.close();
 ```
 
 # Creating and linking the two graphs
