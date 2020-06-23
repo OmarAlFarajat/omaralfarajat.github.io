@@ -38,11 +38,11 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-The above gbmap file will result in the following gameboard:  
+The above gbmap file will result in the gameboard shown below. Note that the order of the resources from left-to-right in the gbmap file corresponds in a clockwise order starting from the upper-left resource node.
 
 <img class="ui medium centered image" src="../images/mino/test_gbmap.png"> 
 
-A while-loop iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this property can be used to include comments as is done in the test file with the '#' symbol.  
+The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this property can be used to include comments as is done in the test file with the '#' symbol.  
 
 ```cpp
 while (inFile) {
