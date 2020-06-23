@@ -29,7 +29,7 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-<img class="ui fluid centered image" src="../images/mino/test_gbmap.png"> 
+<img class="ui medium centered image" src="../images/mino/test_gbmap.png"> 
 
 In GBMapLoader.cpp, the length and height values read from the map file are passed to the function Graph::makeGridGraph. Note that there are 4 resource nodes to ever tile node, so the length and height are both multiplied by 2 for the resource graph.  
 
@@ -54,6 +54,30 @@ for (int i = 0; i < totalNodes; i++)
 }
 ```
 
-After both tile and resource graphs are created, they are linked using an algorithm. The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from the gbmap file.  
+After both tile and resource graphs are created, each tile node is linked by 4 edges (pointers) to the four corresponding resource nodes. This is done using the logic shown below.  
+```cpp
+for (int i = 0; i < totalNodes; i++)
+{
+	if (rowCount == *this->length) {
+		rowCount = 0; 
+		rowValue++;
+	}
+ 
+	int firstResource = (i * 2) + (*this->length*rowValue*2);
+
+	static_cast<TileNode*>(nodes[0][i])
+		->linkResourceNode(static_cast<Resource*>(resourceGraph->getNode(firstResource)), 0);
+	static_cast<TileNode*>(nodes[0][i])
+		->linkResourceNode(static_cast<Resource*>(resourceGraph->getNode(firstResource + 1)), 1);
+	static_cast<TileNode*>(nodes[0][i])
+		->linkResourceNode(static_cast<Resource*>(resourceGraph->getNode(firstResource + *this->length * 2)), 2);
+	static_cast<TileNode*>(nodes[0][i])
+		->linkResourceNode(static_cast<Resource*>(resourceGraph->getNode(firstResource + *this->length * 2 + 1)), 3);
+
+	rowCount++; 
+}
+```
+
+The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from `test.gmap`.  
 
 <img class="ui fluid centered image" src="../images/mino/2x2_grid_visual.png">
