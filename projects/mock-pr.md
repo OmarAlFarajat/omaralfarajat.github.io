@@ -12,6 +12,14 @@ labels:
 summary: A mock PR for the GBMap component from the New Haven project. For interview purposes. 
 ---
 
+## Relevant header and source files
+* GBMapLoader.cpp
+* GBMap.cpp / GBMap.h
+* Graph.cpp / Graph.h
+* Node.cpp / Node.h
+* TileNode.cpp / TileNode.h
+* Resources.cpp / Resources.h
+
 ## Parsing the .gbmap file
 Input file `test.gbmap`:
 
@@ -30,7 +38,7 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-The gbmap file will result in the following gameboard:  
+The above gbmap file will result in the following gameboard:  
 
 <img class="ui medium centered image" src="../images/mino/test_gbmap.png"> 
 
