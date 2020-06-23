@@ -47,7 +47,7 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-The above gbmap file will result in the gameboard shown below. Note that the order of the resources from left-to-right in the gbmap file corresponds in a clockwise order starting from the upper-left resource node.
+The above gbmap file will result in the gameboard shown below. Note that the order of the resources from left-to-right in the gbmap file and how they correspond to the resources on the tile. 
 
 <img class="ui medium rounded centered image" src="../images/mino/test_gbmap.png"> 
 
