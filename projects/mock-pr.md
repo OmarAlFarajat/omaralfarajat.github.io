@@ -13,12 +13,12 @@ summary: A mock PR for the GBMap component from the New Haven project. For inter
 ---
 
 ## Relevant header and source files
-* **GBMapLoader.cpp**
-* **GBMap.cpp** and **GBMap.h**
-* **Graph.cpp** and **Graph.h**
-* **Node.cpp** and **Node.h**
-* **TileNode.cpp** and **TileNode.h**
-* **Resources.cpp** and **Resources.h**
+* GBMapLoader.cpp
+* GBMap.cpp and GBMap.h
+* Graph.cpp and Graph.h
+* Node.cpp and Node.h
+* TileNode.cpp and TileNode.h
+* Resources.cpp and Resources.h
 
 ## Parsing the .gbmap file
 Input file `test.gbmap`:
