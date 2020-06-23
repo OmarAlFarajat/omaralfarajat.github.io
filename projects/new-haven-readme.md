@@ -95,7 +95,7 @@ inFile.close();
 
 ## Creating and linking the two graphs
 
-In `GBMapLoader.cpp`, the length and height values are read from the map file are passed to the function `Graph::makeGridGraph`. Note that there are 4 resource nodes to ever tile node, so the length and height are both multiplied by 2 for the resource graph.  
+In `GBMapLoader.cpp`, the length and height values are read from the map file and passed to the function `Graph::makeGridGraph`. Note that there are 4 resource nodes to every tile node, so the length and height are both multiplied by 2 for the resource graph.  
 
 ```cpp
 gb_map.getTileGraph()->makeGridGraph(length, height, NodeType::TILE);
