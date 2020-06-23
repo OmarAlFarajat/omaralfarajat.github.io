@@ -31,8 +31,10 @@ DISABLE		8
 
 In GBMapLoader.cpp, the length and height values read from the map file are passed to the function Graph::makeGridGraph. Note that there are 4 resource nodes to ever tile node, so the length and height are both multiplied by 2 for the resource graph. 
 
-`gb_map.getTileGraph()->makeGridGraph(length, height, NodeType::TILE)`
-`gb_map.getResourceGraph()->makeGridGraph(length * 2, height * 2, NodeType::RESOURCE)`
+```cpp
+gb_map.getTileGraph()->makeGridGraph(length, height, NodeType::TILE);
+gb_map.getResourceGraph()->makeGridGraph(length * 2, height * 2, NodeType::RESOURCE);
+```
 
 In Graph.cpp, function Graph::makeGridGraph creates the nodes which are unconnected at first, but the for-loop and if-statements below ensure that edges pointing to other nodes are added in order to create a connected grid. Each of the four if-statements is responsible for its own direction: up, down, left, right, respectively. The logic creates connections on the "inside" of the grid, while leaving all pointers on the edges null. 
 
