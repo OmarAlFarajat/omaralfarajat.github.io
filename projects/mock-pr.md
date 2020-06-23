@@ -20,6 +20,10 @@ summary: A mock PR for the GBMap component from the New Haven project. For inter
 * TileNode.cpp, TileNode.h
 * Resources.cpp, Resources.h
 
+## Overview
+
+<img class="ui fluid rounded centered image" src="../images/mino/ClassDiagram.png">
+
 ## Parsing the .gbmap file
 Input file `test.gbmap`:
 
