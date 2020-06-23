@@ -11,7 +11,8 @@ labels:
   - CImg
 summary: A mock PR for the GBMap component from the New Haven project. For interview purposes. 
 ---
-# Parsing of .gbmap file
+
+# Parsing the .gbmap file
 Input file `test.gbmap`:
 
 ```
@@ -68,6 +69,8 @@ A while-loop iterates through the file line-by-line. The loop is continued if an
 	}
 	inFile.close();
 ```
+
+# Creating and linking the two graphs
 
 In `GBMapLoader.cpp`, the length and height values are read from the map file are passed to the function `Graph::makeGridGraph`. Note that there are 4 resource nodes to ever tile node, so the length and height are both multiplied by 2 for the resource graph.  
 
