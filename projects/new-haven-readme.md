@@ -20,7 +20,7 @@ New Haven is a board game we were tasked with recreating using C++ for COMP 345 
 
 ## Relevant header and source files
 
-<a href="https://github.com/OmarAlFarajat/New-Haven-sources"></a>  
+<a href="https://github.com/OmarAlFarajat/New-Haven-sources">OmarAlFarajat/New-Haven-sources</a>  
 
 * GBMapLoader.cpp, GBMapLoader.h
 * GBMap.cpp, GBMap.h
