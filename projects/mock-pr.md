@@ -14,11 +14,11 @@ summary: A mock PR for the GBMap component from the New Haven project. For inter
 
 ## Relevant header and source files
 * GBMapLoader.cpp
-* GBMap.cpp and GBMap.h
-* Graph.cpp and Graph.h
-* Node.cpp and Node.h
-* TileNode.cpp and TileNode.h
-* Resources.cpp and Resources.h
+* GBMap.cpp, GBMap.h
+* Graph.cpp, Graph.h
+* Node.cpp, Node.h
+* TileNode.cpp, TileNode.h
+* Resources.cpp, Resources.h
 
 ## Parsing the .gbmap file
 Input file `test.gbmap`:
@@ -42,7 +42,7 @@ The above gbmap file will result in the gameboard shown below. Note that the ord
 
 <img class="ui medium rounded centered image" src="../images/mino/test_gbmap.png"> 
 
-The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this property can be used to include comments as is done in the test file with the '#' symbol.  
+The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this behaviour can be used to include comments as is done in the test file with the '#' symbol.  
 
 ```cpp
 while (inFile) {
@@ -87,7 +87,7 @@ gb_map.getTileGraph()->makeGridGraph(length, height, NodeType::TILE);
 gb_map.getResourceGraph()->makeGridGraph(length * 2, height * 2, NodeType::RESOURCE);
 ```
 
-In `Graph.cpp`, function `Graph::makeGridGraph` creates the nodes which are unconnected at first, but the for-loop and if-statements below ensure that edges pointing to other nodes are added in order to create a connected grid. Each of the four if-statements is responsible for its own direction: up, down, left, right, respectively. The logic creates connections on the "inside" of the grid, while leaving all pointers on the edges null.  
+In `Graph.cpp`, function `Graph::makeGridGraph` creates the nodes which are unconnected at first, but the for-loop and if-statements below ensure that edges pointing to other nodes are added to create a connected grid. Each of the four if-statements is responsible for one of four directions: up, down, left, right, respectively. The conditional logic ensures the creation of the relevant connections on the "inside" of the grid, while leaving all outward pointing edges along the perimeter of the grid as the default value of `nullptr` (i.e. the edge doesn't exist).  
 
 ```cpp
 for (int i = 0; i < totalNodes; i++)
