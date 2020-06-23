@@ -103,7 +103,7 @@ for (int i = 0; i < totalNodes; i++)
 }
 ```
 
-The above processes result in two isolated graphs, one for tiles and one for resources, as visualized below. 
+The above processes result in two isolated graphs, one for tiles and one for resources, respectively, as visualized below. 
 
 <img class="ui large rounded centered image" src="../images/mino/tile_nodes.png">  
 
