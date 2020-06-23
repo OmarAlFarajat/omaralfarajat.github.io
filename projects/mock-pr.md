@@ -103,7 +103,15 @@ for (int i = 0; i < totalNodes; i++)
 }
 ```
 
-After both tile and resource graphs are created, each tile node is linked by 4 edges (pointers) to the four corresponding resource nodes. This is done using the logic shown below.  
+The above processes result in two isolated graphs, one for tiles and one for resources, as visualized below. 
+
+<img class="ui large centered image" src="../images/mino/tile_nodes.png"> 
+<img class="ui large centered image" src="../images/mino/resource_nodes.png"> 
+
+The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. We can do this mathematically using the tile node ID as follows:  
+
+<img class="ui large centered image" src="../images/mino/maths.png"> 
+   
 ```cpp
 for (int i = 0; i < totalNodes; i++)
 {
