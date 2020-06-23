@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/mino/mock-pr_thumbnail.jpg
-title: GBMap Builder (Mock PR)
+title: GBMap Builder (New Haven)
 permalink: projects/mock-pr
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-23
