@@ -3,41 +3,44 @@ layout: project
 type: project
 image: images/mino/mock-pr_thumbnail.jpg
 title: GBMap Builder (New Haven)
-permalink: projects/mock-pr
+permalink: projects/mock-readme
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-23
 labels:
   - C++
   - CImg
-summary: A mock PR for the GBMap component from the New Haven project. For interview purposes. 
+summary: A mock README for the game board component from the New Haven project. For interview purposes. 
 ---
 ## Introduction
+<img class="ui medium rounded centered image" src="../images/mino/new_haven.png"> 
 
-Lorem ipsum
+New Haven is a board game we were tasked with recreating using C++ for COMP 345 (Advanced Program Design with C++) at Concordia University in the semester of Winter 2020. **This writeup focuses only on the creation of the game board via parsing a custom map file, creating a graph structure, and performing a traversal to calculate points in terms of the resources collected on the map.** This all encompases roughly 800 lines of code, as requested. An important note, the project required us to use raw pointers for all class data members (including primitive types), so some of the references may seem unnecessarily complex. Also, functionalities like exception-handling, input guards, and memory management need to be reworked or implemented.
+
+*And without further ado...*
 
 ## Relevant header and source files
-* GBMapLoader.cpp
+* GBMapLoader.cpp, GBMapLoader.h
 * GBMap.cpp, GBMap.h
 * Graph.cpp, Graph.h
 * Node.cpp, Node.h
 * TileNode.cpp, TileNode.h
 * Resources.cpp, Resources.h
 
-*Approximately 800 lines of code including empty lines and comments.*
+*Roughly 800 lines of code including empty lines and comments.*
 
 ## Overview
 
 <img class="ui fluid rounded centered image" src="../images/mino/ClassDiagram.png">
 
 ## Parsing the .gbmap file
-Input file `test.gbmap`:
+Below is a sample of a custom map file, `test.gbmap`:
 
 ```
 # Length and height of the grid
 LENGTH	3
 HEIGHT	3
 
-# Row 0, Column 1
+# Row 0, Column 0
 RESOURCE	0	STONE	SHEEP	TIMBER	WHEAT
 
 # Row 1, Column 2
@@ -47,11 +50,11 @@ RESOURCE	5	TIMBER	WHEAT	WHEAT	TIMBER
 DISABLE		8
 ```
 
-The above gbmap file will result in the gameboard shown below. Note that the order of the resources from left-to-right in the gbmap file and how they correspond to the resources on the tile. 
+The above gbmap file will result in the gameboard shown below. Note the order of the resources from left-to-right in the gbmap file and how they correspond to the resources on the tile. 
 
 <img class="ui medium rounded centered image" src="../images/mino/test_gbmap.png"> 
 
-The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this behaviour can be used to include comments as is done in the test file with the '#' symbol.  
+The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this behaviour can be used to include comments as is done in the test file with the '#' symbol.  
 
 ```cpp
 while (inFile) {
@@ -147,7 +150,7 @@ for (int i = 0; i < totalNodes; i++)
 }
 ```
 
-The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from `test.gbmap`.  
+The two graphs combined result in a three-dimensional grid graph that resembles a trapezoidal  prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from `test.gbmap`.  
 
 <img class="ui fluid rounded centered image" src="../images/mino/2x2_grid_visual.png">
 
@@ -189,7 +192,7 @@ void GBMap::calcResourceAdjacencies(TileNode* root, std::map<ResourceType, int> 
 }
 ```
 
-In `Graph.cpp`, the function `Graph::DFS_ByType`, shown below, peforms a conditional traversal, i.e. it continues to traverse so long as:  
+In `Graph.cpp`, the function `Graph::DFS_ByType`, shown below, performs a conditional traversal, i.e. it continues to traverse so long as:  
 * The edge exists i.e. is not `nullptr`. 
 * The node has not been visited.
 * The node is enabled.
