@@ -113,7 +113,7 @@ The challenge now is to link the corresponding tile nodes to their respective cl
 
 <img class="ui large rounded centered image" src="../images/mino/equation.png">  
 
-The equations above are implemented in a for-loop on each of the tile nodes as shown below.  
+The equations above are implemented in the function `Graph::linkResourceNodes` using a for-loop on each of the tile nodes as shown below.  
 
 ```cpp
 for (int i = 0; i < totalNodes; i++)
