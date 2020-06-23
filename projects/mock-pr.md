@@ -40,7 +40,7 @@ DISABLE		8
 
 The above gbmap file will result in the gameboard shown below. Note that the order of the resources from left-to-right in the gbmap file corresponds in a clockwise order starting from the upper-left resource node.
 
-<img class="ui medium centered image" src="../images/mino/test_gbmap.png"> 
+<img class="ui medium rounded centered image" src="../images/mino/test_gbmap.png"> 
 
 The parsing is done with a while-loop that iterates through the file line-by-line. The loop is continued if an empty or whitespaced line is detected. If no such line is detected, then it is tokenized and the first string token is compared in an if-else block where matching certain keywords will determine in which containers the data is stored.  Lines that do not start with any of the keywords are simply ignored and this property can be used to include comments as is done in the test file with the '#' symbol.  
 
@@ -105,13 +105,13 @@ for (int i = 0; i < totalNodes; i++)
 
 The above processes result in two isolated graphs, one for tiles and one for resources, as visualized below. 
 
-<img class="ui large centered image" src="../images/mino/tile_nodes.png">  
+<img class="ui large rounded centered image" src="../images/mino/tile_nodes.png">  
 
-<img class="ui large centered image" src="../images/mino/resource_nodes.png"> 
+<img class="ui large rounded centered image" src="../images/mino/resource_nodes.png"> 
 
 The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. We can do this mathematically using the tile node ID as follows:  
 
-<img class="ui large centered image" src="../images/mino/equation.png">  
+<img class="ui large rounded centered image" src="../images/mino/equation.png">  
 
 ```cpp
 for (int i = 0; i < totalNodes; i++)
@@ -138,4 +138,4 @@ for (int i = 0; i < totalNodes; i++)
 
 The two graphs combined result in a three-dimensional grid graph that resembles a trapazoidal prism, as shown below. For simplicity, a 2x2 tile grid graph is shown instead of the 3x3 example from `test.gbmap`.  
 
-<img class="ui fluid centered image" src="../images/mino/2x2_grid_visual.png">
+<img class="ui fluid rounded centered image" src="../images/mino/2x2_grid_visual.png">
