@@ -11,6 +11,9 @@ labels:
   - CImg
 summary: A mock PR for the GBMap component from the New Haven project. For interview purposes. 
 ---
+## Introduction
+
+Lorem ipsum
 
 ## Relevant header and source files
 * GBMapLoader.cpp
@@ -19,6 +22,8 @@ summary: A mock PR for the GBMap component from the New Haven project. For inter
 * Node.cpp, Node.h
 * TileNode.cpp, TileNode.h
 * Resources.cpp, Resources.h
+
+*Approximately 800 lines of code including empty lines and comments.*
 
 ## Overview
 
