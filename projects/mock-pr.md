@@ -151,7 +151,65 @@ The two graphs combined result in a three-dimensional grid graph that resembles 
 
 <img class="ui fluid rounded centered image" src="../images/mino/2x2_grid_visual.png">
 
-## Calculating resources harvested using conditional DFS
+## Calculating resources harvested using conditional DFS traversal
 In New Haven, players accumulate resources to construct buildings in their villages. Resources are accumulated by placing a harvest tile onto the game board. By matching adjacent resources, they are able to create chains of accumulating resources. In the example below, the player placed a harvest tile at row 2, column 2 (highlighted in blue). This results in an accumulation of 12 timber (red) and 4 sheep (green). 
 
-<img class="ui medium rounded centered image" src="../images/mino/adj.png"> 
+<img class="ui medium rounded centered image" src="../images/mino/adj.png">  
+
+Our graph structure comes in handy here. In `GBMap.cpp`, the function `GBMap::calcResourceAdjacencies` will perform a DFS traversal starting on each of the resource nodes on the placed harvest tile. Once the traversal is complete, a count is done for each of the resource types to determine the amount accumulated. Once the amounts are recorded, the `visited` state of all the nodes are reset.   
+
+```cpp
+void GBMap::calcResourceAdjacencies(TileNode* root, std::map<ResourceType, int> &output)
+{
+	resourceGraph->DFS_ByType(root->getResourceNodes()[0]);
+	resourceGraph->DFS_ByType(root->getResourceNodes()[1]);
+	resourceGraph->DFS_ByType(root->getResourceNodes()[2]);
+	resourceGraph->DFS_ByType(root->getResourceNodes()[3]);
+
+	for (int i = 0; i < resourceGraph->getNumEnabledNodes(); i++) {
+		if (resourceGraph->getNode(i)->isVisited()) {
+			switch (static_cast<Resource*>(resourceGraph->getNode(i))->getType()) {
+
+			case ResourceType::SHEEP:
+				output[ResourceType::SHEEP]++;
+				break;
+			case ResourceType::STONE:
+				output[ResourceType::STONE]++;
+				break;
+			case ResourceType::WHEAT:
+				output[ResourceType::WHEAT]++;
+				break;
+			case ResourceType::TIMBER:
+				output[ResourceType::TIMBER]++;
+				break;
+			}
+		}
+
+	}
+	resourceGraph->resetAllVisited();
+}
+```
+
+In `Graph.cpp`, the function `Graph::DFS_ByType`, shown below, peforms a conditional traversal, i.e. it continues to traverse so long as:  
+* The edge exists i.e. is not `nullptr`. 
+* The node has not been visited.
+* The node is enabled.
+* The node shares the same resource type. 
+
+```cpp
+void Graph::DFS_ByType(Resource* node) {
+	*node->visited = true;
+
+	if (node->up && !*node->up->visited && *node->up->enabled && (static_cast<Resource*>(node->up)->getType() == node->getType()))
+		DFS_ByType(static_cast<Resource*>(node->up));
+
+	if (node->down && !*node->down->visited && *node->down->enabled && (static_cast<Resource*>(node->down)->getType() == node->getType()))
+		DFS_ByType(static_cast<Resource*>(node->down));
+
+	if (node->left && !*node->left->visited && *node->left->enabled && (static_cast<Resource*>(node->left)->getType() == node->getType()))
+		DFS_ByType(static_cast<Resource*>(node->left));
+
+	if (node->right && !*node->right->visited && *node->right->enabled && (static_cast<Resource*>(node->right)->getType() == node->getType()))
+		DFS_ByType(static_cast<Resource*>(node->right));
+}
+```
