@@ -105,7 +105,8 @@ for (int i = 0; i < totalNodes; i++)
 
 The above processes result in two isolated graphs, one for tiles and one for resources, as visualized below. 
 
-<img class="ui large centered image" src="../images/mino/tile_nodes.png"> 
+<img class="ui large centered image" src="../images/mino/tile_nodes.png">  
+
 <img class="ui large centered image" src="../images/mino/resource_nodes.png"> 
 
 The challenge now is to link the corresponding tile nodes to their respective cluster of 4 resource nodes. We can do this mathematically using the tile node ID as follows:  
