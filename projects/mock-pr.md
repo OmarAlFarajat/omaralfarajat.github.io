@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/mino/mock-pr_thumbnail.jpg
 title: GBMap Builder (Mock PR)
-permalink: projects/gbmap
+permalink: projects/mock-pr
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-23
 labels:
