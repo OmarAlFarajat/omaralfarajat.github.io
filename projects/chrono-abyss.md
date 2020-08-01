@@ -35,17 +35,18 @@ Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our tea
 * Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brogamon!
 
 ## Controls
-|Input|Action| 
-|---|---|
-| W | Move up |
-| A | Move left |
-| S | Move down |
-| D | Move right |
-| Move mouse| Aim gun |
-| Left-click | Fire gun |
-| Space | Slash with sword | 
-| 1 | Invulnerable power-up | 
-| 2 | Infinite ammo power-up | 
-| 3 | Spread-shot power-up |
+| Input      | Action                 |
+|------------|------------------------|
+| W          | Move up                |
+| A          | Move left              |
+| S          | Move down              |
+| D          | Move right             |
+| Move mouse | Rotate/aim gun         |
+| Left-click | Fire gun               |
+| R          | Reload                 |
+| Space      | Sword slash            |
+| 1          | Invulnerable power-up  |
+| 2          | Infinite ammo power-up |
+| 3          | Spread-shot power-up   |
 
   
