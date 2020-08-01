@@ -26,13 +26,13 @@ summary: <a href="https://github.com/christopherdufort/Dream-Eater-Interactive">
 </div>
 
 ## Introduction
-Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our team's submission for the COMP 376 game project at Concordia University.  
+Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our team's submission for the COMP 376 game project at Concordia University. Made using Unity with custom 2D sprites as part. Made collaboratively using GitHub for version control and GitHub Projects for task and issue tracking and team coordination.  
 
 ## Game Loop
 * Battle through an infinite cycle of dungeons with a boss battle at the end of each. 
-* Make use of your natural time-bending abilities with the movement-time mechanic, where your environment and enemies around you only move as you move! 
+* Make use of your natural time-bending abilities with the movement-time mechanic. Your environment and enemies around you only move as you move! Certain actions such as reloading or slashing your sword will make time progress normally.  
 * Defeating each dungeon boss unlocks the level up menu where you can improve your character. 
-* Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brogamon!
+* Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brorgamon!
 
 ## Controls
 <style type="text/css">
