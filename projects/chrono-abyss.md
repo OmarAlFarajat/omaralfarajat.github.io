@@ -32,7 +32,7 @@ Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our tea
 * Battle through an infinite cycle of dungeons with a boss battle at the end of each. 
 * Make use of your natural time-bending abilities with the movement-time mechanic. Your environment and enemies around you only move as you move! Certain actions such as reloading or slashing your sword will make time progress normally.  
 * Defeating each dungeon boss unlocks the level up menu where you can improve your character. 
-* Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brorgamon!
+* The Time Creeper is a very strong special enemy that any time in the game when you stand still for a long time. Once you are strong enough, defeat him to open a portal to the final boss: Brorgamon!
 
 ## Controls
 <style type="text/css">
