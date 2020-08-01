@@ -35,57 +35,66 @@ Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our tea
 * Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brogamon!
 
 ## Controls
-<table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 10px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 10px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
 <thead>
   <tr>
-    <th>Input</th>
-    <th>Action</th>
+    <th class="tg-fymr">Input</th>
+    <th class="tg-fymr">Action</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>W</td>
-    <td>Move up</td>
+    <td class="tg-0pky">W</td>
+    <td class="tg-0pky">Move up</td>
   </tr>
   <tr>
-    <td>A</td>
-    <td>Move left</td>
+    <td class="tg-0pky">A</td>
+    <td class="tg-0pky">Move left</td>
   </tr>
   <tr>
-    <td>S</td>
-    <td>Move down</td>
+    <td class="tg-0pky">S</td>
+    <td class="tg-0pky">Move down</td>
   </tr>
   <tr>
-    <td>D</td>
-    <td>Move right</td>
+    <td class="tg-0pky">D</td>
+    <td class="tg-0pky">Move right</td>
   </tr>
   <tr>
-    <td>Move mouse</td>
-    <td>Rotate/aim gun</td>
+    <td class="tg-0pky">Move mouse</td>
+    <td class="tg-0pky">Rotate/aim gun</td>
   </tr>
   <tr>
-    <td>Left-click</td>
-    <td>Fire gun</td>
+    <td class="tg-0pky">Left-click</td>
+    <td class="tg-0pky">Fire gun</td>
   </tr>
   <tr>
-    <td>R</td>
-    <td>Reload</td>
+    <td class="tg-0pky">R</td>
+    <td class="tg-0pky">Reload</td>
   </tr>
   <tr>
-    <td>Space</td>
-    <td>Sword slash</td>
+    <td class="tg-0pky">Space</td>
+    <td class="tg-0pky">Sword slash</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>Invulnerable power-up</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">Invulnerable power-up</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>Infinite ammo power-up</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">Infinite ammo power-up</td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>Spread-shot power-up</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">Spread-shot power-up</td>
   </tr>
 </tbody>
 </table>
