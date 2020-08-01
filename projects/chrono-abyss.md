@@ -34,7 +34,9 @@ Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our tea
 * Defeating each dungeon boss unlocks the level up menu where you can improve your character. 
 * Once you are strong enough, defeat the Time Creeper to open a portal to the final boss: Brogamon!
 
-## Controls 
+## Controls
+|Input|Action| 
+|---|---|
 | W | Move up |
 | A | Move left |
 | S | Move down |
