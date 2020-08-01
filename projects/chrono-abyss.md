@@ -26,13 +26,13 @@ summary: <a href="https://github.com/christopherdufort/Dream-Eater-Interactive">
 </div>
 
 ## Introduction
-Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our team's submission for the COMP 376 game project at Concordia University. Made using Unity with custom 2D sprites as part. Made collaboratively using GitHub for version control and GitHub Projects for task and issue tracking and team coordination.  
+Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our team's submission for the COMP 376 game project at Concordia University. It was made using Unity game engine with custom 2D sprites. GitHub was used for version control and GitHub Projects for task and issue tracking and team coordination. Also has music and sound system with the ability to adjust pitch and speed to correspond with movement-time mechanic. 
 
-## Game Loop
-* Battle through an infinite cycle of dungeons with a boss battle at the end of each. 
-* Make use of your natural time-bending abilities with the movement-time mechanic. Your environment and enemies around you only move as you move! Certain actions such as reloading or slashing your sword will make time progress normally.  
+## Description & Game Loop
+* Battle through an infinite cycle of dungeons with a boss battle at the end of each one. 
+* Make use of your natural movement-time mechanic (similar to the Superhot game series). Your environment and enemies only progress through time as you move! However, certain actions such as reloading or slashing your sword will make time progress normally.  
 * Defeating each dungeon boss unlocks the level up menu where you can improve your character. 
-* The Time Creeper is a very strong special enemy that any time in the game when you stand still for a long time. Once you are strong enough, defeat him to open a portal to the final boss: Brorgamon!
+* The Time Creeper is a very strong special enemy that can appear at any time in the game when you stand still for too long. Once you are strong enough, defeat him to open a portal to the final boss: Brorgamon!
 
 ## Controls
 <style type="text/css">
