@@ -16,8 +16,8 @@ summary: <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i cla
 **Attributions:**
 - Prof. Tiberiu Popa COMP 477 Code, https://github.com/KevinZkX/comp477-assignment  
 - Kinect V1 SDK Setup, https://github.com/kyzyx/Tutorials/tree/master/KinectSDK/1_Basics  
+
 **Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  
-**Video:** <a href="https://www.youtube.com/watch?v=YRt8sM6gbdI"><i class="large youtube icon "></i>Kinect Motion Capture Demo</a>
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/YRt8sM6gbdI">
