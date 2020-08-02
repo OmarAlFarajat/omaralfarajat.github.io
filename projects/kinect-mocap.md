@@ -20,7 +20,7 @@ summary: <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i cla
 **Video:** <a href="https://www.youtube.com/watch?v=YRt8sM6gbdI"><i class="large youtube icon "></i>Kinect Motion Capture Demo</a>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=YRt8sM6gbdI">
+src="https://www.youtube.com/embed/YRt8sM6gbdI">
 </iframe>
 
 ## Introduction
