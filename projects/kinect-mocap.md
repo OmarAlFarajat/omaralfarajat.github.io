@@ -18,10 +18,10 @@ summary: <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i cla
 - Kinect V1 SDK Setup, https://github.com/kyzyx/Tutorials/tree/master/KinectSDK/1_Basics  
 
 **Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  
+---  
+{% include youtubePlayer.html id="YRt8sM6gbdI" %}  
+--- 
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/YRt8sM6gbdI">
-</iframe>
 
 ## Introduction
 The code provided to us 
