@@ -25,7 +25,7 @@ summary: Real-time motion capture on a 3D character with recording and playback.
 <br>
 
 ## Introduction
-Given a code base of a skeleton-mesh animation system (coded in C/C++ using OpenGL/GLUT), interface it with a Kinect device to capture and play back human movement. Human movement animations a 3D character in real-time. The animations can be recorded and saved. 
+Given a code base of a skeleton-mesh animation system (coded in C/C++ using OpenGL/GLUT), interface it with a Kinect device to capture and play back human movement. Human movement animates a 3D character in real-time. The animations can be recorded and saved. 
 
 ## Notes
 - Make sure to run in Release mode and x86 configuration.

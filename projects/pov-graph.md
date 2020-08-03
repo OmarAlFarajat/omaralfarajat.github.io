@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/pov-graph_thumbnail.jpg
-title: Points-of-Visibility Graph with A* Pathfinding
+title: POV Graph Tool
 permalink: projects/povgraph
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-11
