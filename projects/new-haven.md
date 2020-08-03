@@ -14,9 +14,9 @@ labels:
 summary: <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i></a><a href="https://youtu.be/8jRI4ZnfOsM"><i class="large youtube icon "></i></a>A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>    
----  
+<br>
 {% include youtubePlayer.html id="8jRI4ZnfOsM" %}  
----    
+<br>
    
 ## Introduction
 <img class="ui medium rounded centered image" src="../images/mino/new_haven.PNG"> 
