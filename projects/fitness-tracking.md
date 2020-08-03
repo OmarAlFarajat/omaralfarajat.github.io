@@ -10,7 +10,7 @@ labels:
   - Java
   - Android
   - GitHub
-summary: Interfaces with an Endomondo account to sync fitness training data (cycling) and make predictions based on moving averages.
+summary: Authenticates a login session with an Endomondo account to download fitness training data to a smart phone or tablet. Data is used to make predictions based on moving averages.
 ---
 *More information coming soon! In the meantime, please refer to the video and/or source code.*  
 
