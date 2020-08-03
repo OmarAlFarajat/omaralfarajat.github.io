@@ -16,8 +16,9 @@ summary: Real-time motion capture on a 3D character with recording and playback.
 **Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  
 
 **Attributions:**
-- Prof. Tiberiu Popa COMP 477 Code, https://github.com/KevinZkX/comp477-assignment  
-- Kinect V1 SDK Setup, https://github.com/kyzyx/Tutorials/tree/master/KinectSDK/1_Basics  
+- Prof. Tiberiu Popa COMP 477 Code, <a href="https://github.com/KevinZkX/comp477-assignment"><i class="large github icon"></i>KevinZkX/comp477-assignment</a>  
+
+- Kinect V1 SDK Setup,<a href="https://github.com/kyzyx/Tutorials/tree/master/KinectSDK/1_Basics"><i class="large github icon"></i>kyzyx/Tutorials/tree/master/KinectSDK/1_Basics</a>  
 
 <br>
 {% include youtubePlayer.html id="YRt8sM6gbdI" %}  
