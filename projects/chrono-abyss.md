@@ -15,7 +15,12 @@ summary: <a href="https://github.com/christopherdufort/Dream-Eater-Interactive">
 ---
 **Source:** <a href="https://github.com/christopherdufort/Dream-Eater-Interactive"><i class="large github icon"></i>christopherdufort/Dream-Eater-Interactive</a>  
 
-{% include youtubePlayer.html id="nvECaCOx4Y" %}   
+<div class="embed-youtube"> <iframe src="https://www.youtube.com/embed/nvECaCOx4Y" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe> </div>
 
 <div class="ui medium rounded images">
   <img class="ui image" src="../images/chrono/chrono1.png">
