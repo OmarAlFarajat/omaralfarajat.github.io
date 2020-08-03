@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/new-haven_thumbnail.jpg
-title: New Haven Board Game
+title: New Haven
 permalink: projects/newhaven
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-14
@@ -11,9 +11,11 @@ labels:
   - CImg
   - GitHub
   - Game Development
-summary: <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i></a><a href="https://youtu.be/8jRI4ZnfOsM"><i class="large youtube icon "></i></a>A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
----
-**Source:** <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>    
+summary: A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
+---  
+
+**Source:** <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>  
+
 <br>
 {% include youtubePlayer.html id="8jRI4ZnfOsM" %}  
 <br>

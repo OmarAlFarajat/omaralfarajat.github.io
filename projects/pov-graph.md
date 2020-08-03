@@ -10,7 +10,7 @@ labels:
   - C#
   - Unity
   - Pathfinding
-summary: <a href="https://github.com/OmarAlFarajat/Unity-POV-Graph"><i class="large github icon"></i></a>A proof-of-concept navigation graph generator built as a tool in Unity.
+summary: A proof-of-concept navigation graph generator built as a tool in Unity.
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Unity-POV-Graph"><i class="large github icon"></i>OmarAlFarajat/Unity-POV-Graph</a>
 ## Introduction

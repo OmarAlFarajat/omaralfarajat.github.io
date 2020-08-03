@@ -11,19 +11,20 @@ labels:
   - OpenGL
   - Kinect
   - Motion Capture
-summary: <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i></a><a href="https://www.youtube.com/watch?v=YRt8sM6gbdI"><i class="large youtube icon "></i></a>Real-time motion capture on a 3D character with recording and playback.
+summary: Real-time motion capture on a 3D character with recording and playback.
 ---
+**Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  
+
 **Attributions:**
 - Prof. Tiberiu Popa COMP 477 Code, https://github.com/KevinZkX/comp477-assignment  
 - Kinect V1 SDK Setup, https://github.com/kyzyx/Tutorials/tree/master/KinectSDK/1_Basics  
 
-**Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  
 <br>
 {% include youtubePlayer.html id="YRt8sM6gbdI" %}  
 <br>
 
 ## Introduction
-The code provided to us 
+Given a code base of a skeleton-mesh animation system (coded in C/C++ using OpenGL/GLUT), interface it with a Kinect device to capture and play back human movement. Human movement animations a 3D character in real-time. The animations can be recorded and saved. 
 
 ## Notes
 - Make sure to run in Release mode and x86 configuration.
