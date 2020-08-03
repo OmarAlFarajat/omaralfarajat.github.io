@@ -10,7 +10,6 @@ labels:
   - C++
   - OpenGL
   - Kinect
-  - Motion Capture
 summary: Real-time motion capture on a 3D character with recording and playback.
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  

@@ -9,8 +9,6 @@ date: 2020-06-14
 labels:
   - C++
   - CImg
-  - GitHub
-  - Game Development
 summary: A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
 ---  
 

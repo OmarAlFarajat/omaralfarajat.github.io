@@ -9,7 +9,6 @@ date: 2020-06-11
 labels:
   - C#
   - Unity
-  - Pathfinding
 summary: Unity editor tool that creates POV pathfinding graphs for simple levels. 
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Unity-POV-Graph"><i class="large github icon"></i>OmarAlFarajat/Unity-POV-Graph</a>

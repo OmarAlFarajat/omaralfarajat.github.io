@@ -9,11 +9,9 @@ date: 2020-06-10
 labels:
   - C#
   - Unity
-  - Game Development
 summary: Dive for gold while avoiding an onslaught of deep-sea monstrosities! Now in 3D!
 ---
-*More information coming soon! In the meantime, please refer to the video and/or source code.*  
-
-Source: <a href="https://github.com/OmarAlFarajat/Gold-Diver-3D"><i class="large github icon"></i>OmarAlFarajat/Gold-Diver-3D</a>  
-
-Video: <a href="https://www.youtube.com/watch?v=sOH0t1z6z34"><i class="large youtube icon "></i>Gold Diver 3D Gameplay Demo</a>
+**Source:** <a href="https://github.com/OmarAlFarajat/Gold-Diver-3D"><i class="large github icon"></i>OmarAlFarajat/Gold-Diver-3D</a>  
+<br>
+{% include youtubePlayer.html id="sOH0t1z6z34" %}  
+<br>

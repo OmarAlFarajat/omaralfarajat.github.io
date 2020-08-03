@@ -9,8 +9,6 @@ date: 2020-06-15
 labels:
   - C#
   - Unity
-  - GitHub
-  - Game Development
 summary: A 2D top-down action-RPG with a movement-based time mechanic and endless dungeons.
 ---
 **Source:** <a href="https://github.com/christopherdufort/Dream-Eater-Interactive"><i class="large github icon"></i>christopherdufort/Dream-Eater-Interactive</a>  
