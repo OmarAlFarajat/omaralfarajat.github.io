@@ -9,7 +9,7 @@ date: 2020-06-09
 labels:
   - C++
   - OpenGL
-summary: <a href="https://github.com/zee366/SpaceSimulation"><i class="large github icon"></i></a>A simulated game of tag between "hunter" and "prey" spacecraft.
+summary: A simulated game of tag between "hunter" and "prey" spacecraft.
 ---
 *More information coming soon! In the meantime, please refer to the video and/or source code.*  
 

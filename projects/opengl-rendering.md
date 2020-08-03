@@ -9,7 +9,7 @@ date: 2019-01-01
 labels:
   - C++
   - OpenGL
-summary: <a href="https://github.com/OmarAlFarajat/OpenGL-Rendering"><i class="large github icon"></i></a>A simple scene rendered using OpenGL showcasing the Phong and Lambert illumination models with multiple light sources and shadows.
+summary: A simple scene rendered using OpenGL showcasing the Phong and Lambert illumination models with multiple light sources and shadows.
 ---
 *More information coming soon! In the meantime, please refer to the video and/or source code.*  
 

@@ -10,7 +10,7 @@ labels:
   - C#
   - Unity
   - Game Development
-summary: <a href="https://github.com/OmarAlFarajat/Gold-Diver-2D"><i class="large github icon"></i></a><a href="https://www.youtube.com/watch?v=XjyPEf7X2iE"><i class="large youtube icon "></i></a>Dive for gold while avoiding an onslaught of deep-sea monstrosities!
+summary: Dive for gold while avoiding an onslaught of deep-sea monstrosities!
 ---
 *More information coming soon! In the meantime, please refer to the video and/or source code.*  
 
