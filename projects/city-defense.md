@@ -9,7 +9,7 @@ date: 2020-06-13
 labels:
   - C#
   - Unity
-summary: A 3D real-time strategy game where you're tasked with defending a city from civil unrest.
+summary: A 3D real-time strategy game where you're tasked with defending a city from marauding NPCs.
 ---
 **Source:** <a href="https://github.com/zee366/CityDefense"><i class="large github icon"></i>zee366/CityDefense</a>  
 <br>
@@ -26,7 +26,7 @@ summary: A 3D real-time strategy game where you're tasked with defending a city 
 </div>
 
 ## Introduction
-City Defense is a realtime-strategy where you control a squad of police tasked with "bringing peace" to the city. NPCs are destroying the city and it's your job as police to ensure minimal property damage. Buildings and cars around you are on fire while nearby reporters take record of your behaviour. If you act too aggresively, you may lose funding. What kind of squad will you be?  
+City Defense is a realtime-strategy where you control a squad tasked with bringing peace to the city. NPCs are destroying the city and it's your job to ensure minimal property damage. Buildings and cars around you are on fire while nearby reporters take record of your behaviour. If you act too aggresively, you may lose funding. What kind of squad will you be?  
 
 This is our team's submission for the COMP 476 game project at Concordia University. It was made using Unity game engine. GitHub was used for version control and GitHub Projects for task and issue tracking and team coordination. 
 
