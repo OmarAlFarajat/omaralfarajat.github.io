@@ -81,7 +81,9 @@
         "Java",
         "JavaScript",
         "SQL",
-        "PHP"
+        "PHP",
+	"Python",
+	"Lua"
       ]
     },
     {
