@@ -23,6 +23,12 @@ summary: A recreation of the New Haven board game using C++ and the CImg header-
 
 New Haven is a board game we were tasked with recreating using C++ for COMP 345 (Advanced Program Design with C++) at Concordia University in the semester of Winter 2020. This writeup focuses only on the creation of the game board via parsing a custom map file, creating a graph structure, and performing a traversal to calculate points in terms of the resources collected on the map.
 
+## Contributions
+* Game board loader which supports custom map layouts with different grid sizes and resources. 
+* A connected graph system to logically recreate the game board, enforce game rules, and calculate points accumulated based on tile adjacency. 
+* Programmed the main game loop and core logic. 
+* Used the CImg library to dynamically visualize the game board with simple 2D graphics. 
+
 ## Relevant header and source files
 
 <a href="https://github.com/OmarAlFarajat/New-Haven-sources">OmarAlFarajat/New-Haven-sources</a>  

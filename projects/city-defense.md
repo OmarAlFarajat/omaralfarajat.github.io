@@ -30,6 +30,11 @@ City Defense is a realtime-strategy where you control a squad tasked with bringi
 
 This is our team's submission for the COMP 476 game project at Concordia University. It was made using Unity game engine. GitHub was used for version control and GitHub Projects for task and issue tracking and team coordination. 
 
+## Contributions
+* An RTS-style camera system with zooming and orbiting. Full zoom-out displays the strategic view (a full-screen map).
+* Dynamic minimap showing damage to the city elements as well as NPC locations. Tied to the upgradeable Surveillance system. 
+* The Public Relations system, which is an RTS-like resource system, providing money to the player every second. The amount is affected by the player's actions towards the NPCs. 
+
 ## Description
 * Challenging AI system driven by a hierarchical task network (HTN) planner. NPCs move about and congregate in large mobs, forming plans of attack. A stamina based system regulates their attack or retreat behaviours. 
 * *Public relations* resource system that regulates how much funding your squad will get based on their behaviour.

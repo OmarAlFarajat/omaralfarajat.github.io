@@ -28,6 +28,11 @@ summary: A 2D top-down action-RPG with a movement-based time mechanic and endles
 ## Introduction
 Chrono Abyss is a 2D, topdown, roguelite, bullet-hell action-RPG! It was our team's submission for the COMP 376 game project at Concordia University. It was made using Unity game engine with custom 2D sprites. GitHub was used for version control and GitHub Projects for task and issue tracking and team coordination.
 
+## Contributions
+* Player controller, movement/slow-motion mechanic, combat and movement. 
+* Player power-ups (invincibility, infinite ammo, spreadshot) and related UI elements.
+* Audio manager for music and sound effects, with time-based distortion to match effects with the slowing down and speeding up of time.
+
 ## Description
 * Battle through an infinite cycle of dungeons with a boss battle at the end of each one. 
 * Make use of your natural movement-time mechanic (similar to the Superhot game series). Your environment and enemies only progress through time as you move! However, certain actions such as reloading or slashing your sword will make time progress normally.  
