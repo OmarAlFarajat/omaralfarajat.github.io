@@ -13,4 +13,6 @@ summary: A simple scene rendered using OpenGL showcasing the Phong and Lambert i
 ---
 Source: <a href="https://github.com/OmarAlFarajat/OpenGL-Rendering"><i class="large github icon"></i>OmarAlFarajat/OpenGL-Rendering</a>
 
+<div class='wrap'>
 <iframe src="https://i.simmer.io/@OhmZ/honey-i-m-home" style="width:1920px;height:1080px;border:0"></iframe>
+</div>
