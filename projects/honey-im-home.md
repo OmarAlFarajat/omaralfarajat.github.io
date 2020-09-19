@@ -14,7 +14,7 @@ summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoidin
 ---
 **Download and Play (Windows, Linux, Mac):** <a href="https://gotl.itch.io/honey-im-home">gotl.itch.io/honey-im-home</a>  
 
-**Play in Browser:**
+**Play in Browser:** <a href="https://simmer.io/@OhmZ/honey-i-m-home">simmer.io/@OhmZ/honey-i-m-home</a>
 
 <iframe src="https://i.simmer.io/@OhmZ/honey-i-m-home" style="width:856px;height:480px;border:4"></iframe>
 
