@@ -10,11 +10,14 @@ labels:
   - C#
   - Unity
   - Game jam
+  - WebGL
 summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an inebriated character home to avoid getting a divorce. 
 ---
 **Download and Play (Windows, Linux, Mac):** <a href="https://gotl.itch.io/honey-im-home">gotl.itch.io/honey-im-home</a>  
 
 **Play in Browser:** <a href="https://simmer.io/@OhmZ/honey-i-m-home">simmer.io/@OhmZ/honey-i-m-home</a>
+
+**Top 5 Ranking:** Submissions: <a href="https://itch.io/jam/coco-jam/results ">itch.io/jam/coco-jam/results</a>
 
 <br>
 {% include youtubePlayer.html id="ZmMlz29H7eU" %}  
@@ -29,12 +32,18 @@ summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoidin
 ## Introduction
 Developed by our team "GoreNest" and submitted for the 48-hour <a href="https://itch.io/jam/coco-jam/entries">CoCo Jam</a> held by Concordia Game Dev and ETS Conjure. The theme of the game jam was "No Pain, No Gain". 
 
-## Contributions
+## My Contributions
 * A "treadmill" effect to make the road and environment move under the player sprite to give the impression of moving forward in 3D space. 
 * Scaling and translating the house from under a sprite mask on the horizon of the road to give the impression of approaching it from a distance. 
 * An obstacle spawner that uses a fixed vector fan and relative sprite scaling to give the impression that obstacles are placed on the road in 3D. 
 * A simple audio manager for music and sound effects.
 * General code for tying scenes together and triggering game state events. 
+
+###Credits
+Programmers: <a href="https://github.com/OmarAlFarajat">Omar Al-Farajat</a> and <a href="https://github.com/OmarAlFarajat">Lyonel Zamora</a>.
+Artists: <a href="https://github.com/Tjsreel">Tj'sReel</a> and <a href="https://github.com/GOTLTL">John Tran</a>.
+Animator: <a href="https://github.com/Tjsreel">Tj'sReel</a>.
+Sound and Music: <a href="https://github.com/GOTLTL">John Tran</a>.
 
 ## Description
 * Pain is indicated by the red overlay.
