@@ -41,8 +41,11 @@ Developed by our team "GoreNest" and submitted for the 48-hour <a href="https://
 
 ### Credits
 Programmers: <a href="https://github.com/OmarAlFarajat">Omar Al-Farajat</a> and <a href="https://github.com/OmarAlFarajat">Lyonel Zamora</a>.
+
 Artists: <a href="https://github.com/Tjsreel">Tj'sReel</a> and <a href="https://github.com/GOTLTL">John Tran</a>.
+
 Animator: <a href="https://github.com/Tjsreel">Tj'sReel</a>.
+
 Sound and Music: <a href="https://github.com/GOTLTL">John Tran</a>.
 
 ## Description
