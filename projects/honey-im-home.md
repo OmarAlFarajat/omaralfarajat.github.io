@@ -17,7 +17,7 @@ summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoidin
 
 **Play in Browser:** <a href="https://simmer.io/@OhmZ/honey-i-m-home">simmer.io/@OhmZ/honey-i-m-home</a>
 
-**Top 5 Ranking:** Submissions: <a href="https://itch.io/jam/coco-jam/results ">itch.io/jam/coco-jam/results</a>
+**Top 5 Ranking:** <a href="https://itch.io/jam/coco-jam/results ">itch.io/jam/coco-jam/results</a>
 
 <br>
 {% include youtubePlayer.html id="ZmMlz29H7eU" %}  
