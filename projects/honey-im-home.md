@@ -39,7 +39,7 @@ Developed by our team "GoreNest" and submitted for the 48-hour <a href="https://
 * A simple audio manager for music and sound effects.
 * General code for tying scenes together and triggering game state events. 
 
-###Credits
+### Credits
 Programmers: <a href="https://github.com/OmarAlFarajat">Omar Al-Farajat</a> and <a href="https://github.com/OmarAlFarajat">Lyonel Zamora</a>.
 Artists: <a href="https://github.com/Tjsreel">Tj'sReel</a> and <a href="https://github.com/GOTLTL">John Tran</a>.
 Animator: <a href="https://github.com/Tjsreel">Tj'sReel</a>.
