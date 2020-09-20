@@ -9,7 +9,7 @@ date: 2020-09-13
 labels:
   - C#
   - Unity
-  - Game jam
+  - Game Jam
   - WebGL
 summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an inebriated character home to avoid getting a divorce. 
 ---
