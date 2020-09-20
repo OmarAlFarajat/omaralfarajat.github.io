@@ -12,6 +12,9 @@ labels:
 summary: A 3D real-time strategy game where you're tasked with defending a city from marauding NPCs.
 ---
 **Source:** <a href="https://github.com/zee366/CityDefense"><i class="large github icon"></i>zee366/CityDefense</a>  
+
+**Play in Browser:** <a href="https://simmer.io/@OhmZ/city-defense">simmer.io/@OhmZ/city-defense</a>
+
 <br>
 {% include youtubePlayer.html id="u7UmnszdAlU" %}  
 <br>
