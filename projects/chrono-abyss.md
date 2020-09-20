@@ -18,7 +18,7 @@ summary: A 2D top-down action-RPG with a movement-based time mechanic and endles
 
 **Attributions:**
 - Music from Super Castlevania IV (1991)
-- Sound effects from Doom (1993) and <a href="soundbible.com/1996-Shotgun-Reload-Old.html">
+- Sound effects from Doom (1993) and <a href="https://soundbible.com/1996-Shotgun-Reload-Old.html">soundbible.com/1996-Shotgun-Reload-Old.html</a>
 
 <br>
 {% include youtubePlayer.html id="_nvECaCOx4Y" %}  
