@@ -9,6 +9,7 @@ date: 2020-06-13
 labels:
   - C#
   - Unity
+  - WebGL
 summary: A 3D real-time strategy game where you're tasked with defending a city from marauding NPCs.
 ---
 **Source:** <a href="https://github.com/zee366/CityDefense"><i class="large github icon"></i>zee366/CityDefense</a>  
