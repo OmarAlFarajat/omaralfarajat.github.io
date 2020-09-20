@@ -9,13 +9,16 @@ date: 2020-06-15
 labels:
   - C#
   - Unity
+  - WebGL
 summary: A 2D top-down action-RPG with a movement-based time mechanic and endless dungeons.
 ---
 **Source:** <a href="https://github.com/christopherdufort/Dream-Eater-Interactive"><i class="large github icon"></i>christopherdufort/Dream-Eater-Interactive</a>  
 
+**Play in Browser:** <a href="https://simmer.io/@OhmZ/chrono-abyss">simmer.io/@OhmZ/chrono-abyss</a>
+
 **Attributions:**
-- Music from Super Castlevania IV
-- Sound effects from Doom (1993)
+- Music from Super Castlevania IV (1991)
+- Sound effects from Doom (1993) and <a href="soundbible.com/1996-Shotgun-Reload-Old.html">
 
 <br>
 {% include youtubePlayer.html id="_nvECaCOx4Y" %}  
