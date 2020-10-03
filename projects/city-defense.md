@@ -30,7 +30,7 @@ summary: A 3D real-time strategy game where you're tasked with defending a city 
 </div>
 
 ## Introduction
-City Defense is a realtime-strategy where you control a squad tasked with bringing peace to the city. NPCs are destroying the city and it's your job to ensure minimal property damage. Buildings and cars around you are on fire while nearby reporters take record of your behaviour. If you act too aggresively, you may lose funding. What kind of squad will you be?  
+City Defense is a realtime-strategy where you control a squad tasked with bringing peace to the city. NPCs are destroying the city and it's your job to ensure minimal property damage within 10 minutes. Buildings and cars around you are on fire while nearby reporters take record of your behaviour. If you act too aggresively, you may lose funding. What kind of squad will you be?  
 
 This is our team's submission for the COMP 476 game project at Concordia University. It was made using Unity game engine. GitHub was used for version control and GitHub Projects for task and issue tracking and team coordination. 
 
@@ -61,11 +61,16 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <th class="tg-fymr">Input</th>
     <th class="tg-fymr">Action</th>
+	<th class="tg-fymr">Public Relations Effect</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">Left-click</td>
+    <td class="tg-0pky">Click ability buttons on screen (or use hotkeys below)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Right-click</td>
     <td class="tg-0pky">Move to location</td>
   </tr>
   <tr>
@@ -79,14 +84,17 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <td class="tg-0pky">1</td>
     <td class="tg-0pky">Regular arrest</td>
+	<td class="tg-0pky">Good</td>
   </tr>
   <tr>
     <td class="tg-0pky">2</td>
     <td class="tg-0pky">Faster arrest</td>
+	<td class="tg-0pky">Bad</td>
   </tr>
   <tr>
     <td class="tg-0pky">3</td>
     <td class="tg-0pky">Load rubber bullets</td>
+	<td class="tg-0pky">Good</td>
   </tr>
   <tr>
     <td class="tg-0pky">4</td>
@@ -95,14 +103,17 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <td class="tg-0pky">5</td>
     <td class="tg-0pky">Use smoke grenade</td>
+	<td class="tg-0pky">Bad</td>
   </tr>
   <tr>
     <td class="tg-0pky">6</td>
     <td class="tg-0pky">Use water cannon</td>
+	<td class="tg-0pky">Good</td>
   </tr>
   <tr>
     <td class="tg-0pky">7</td>
     <td class="tg-0pky">Load stun bullets</td>
+	<td class="tg-0pky">Bad</td>
   </tr>
   <tr>
     <td class="tg-0pky">8</td>
@@ -110,3 +121,7 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   </tr>
 </tbody>
 </table>
+
+Note 1: Using the above abilities while within the blue news reporter bubbles will affect how much money you gain every second from the public relations. "Good" means your income will increase, "bad" means your income will decrease. 
+
+Note 2: Obviously, all of the above "crowd control" abilities in real life would be seen negatively from a public relations point-of-view, but we chose to designate half of them as "good" and half as "bad" for gameplay purposes. 
