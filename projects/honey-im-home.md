@@ -22,7 +22,7 @@ summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoidin
 **Ranked Top 5:** <a href="https://itch.io/jam/coco-jam/results ">itch.io/jam/coco-jam/results</a>
 
 **Attributions:**
-- Unity Letterboxing package obtained from <a href="https://github.com/seleb/Better-Minimal-WebGL-Template">github.com/seleb/Better-Minimal-WebGL-Template</a>
+- Unity Letterboxing package obtained from <a href="https://github.com/rabidgremlin/LetterBoxer">rabidgremlin/LetterBoxer</a>
 - Halfway jingle sound effect obtained from <a href="https://www.zapsplat.com/music/musical-game-tone-mystery-complete-end/">zapsplat.com/music/musical-game-tone-mystery-complete-end</a>
 
 <br>
