@@ -68,18 +68,22 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <td class="tg-0pky">Left-click</td>
     <td class="tg-0pky">Click ability buttons on screen (or use hotkeys below)</td>
+	<td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">Right-click</td>
     <td class="tg-0pky">Move to location</td>
+	<td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">Scroll up / down</td>
     <td class="tg-0pky">Zoom camera in / out</td>
+	<td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">Scroll wheel click + drag</td>
     <td class="tg-0pky">Orbit camera</td>
+	<td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">1</td>
@@ -99,6 +103,7 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <td class="tg-0pky">4</td>
     <td class="tg-0pky">Fire guns</td>
+	<td class="tg-0pky">(Depends on ammo loaded)</td>
   </tr>
   <tr>
     <td class="tg-0pky">5</td>
@@ -118,10 +123,13 @@ This is our team's submission for the COMP 476 game project at Concordia Univers
   <tr>
     <td class="tg-0pky">8</td>
     <td class="tg-0pky">Reinforce squad with extra unit</td>
+	<td class="tg-0pky">-</td>
   </tr>
 </tbody>
 </table>
+   
+   
+Note 1: Using the above abilities while within the blue news reporter bubbles will affect how much money you gain every second from the public relations. "Good" means your income will increase, "bad" means your income will decrease.   
 
-Note 1: Using the above abilities while within the blue news reporter bubbles will affect how much money you gain every second from the public relations. "Good" means your income will increase, "bad" means your income will decrease. 
 
 Note 2: Obviously, all of the above "crowd control" abilities in real life would be seen negatively from a public relations point-of-view, but we chose to designate half of them as "good" and half as "bad" for gameplay purposes. 
