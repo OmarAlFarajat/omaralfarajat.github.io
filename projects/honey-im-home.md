@@ -13,7 +13,7 @@ labels:
   - WebGL
 summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an inebriated character home to avoid getting a divorce. 
 ---
-**Source:** <a href="https://github.com/OmarAlFarajat/coco-jam"><i class="large github icon"></i>OmarAlFarajat/coco-jam</a>  
+**Source:** <a href="https://github.com/OmarAlFarajat/Honey-Im-Home"><i class="large github icon"></i>OmarAlFarajat/Honey-Im-Home</a>  
 
 **Download and Play (Windows, Linux, Mac):** <a href="https://gotl.itch.io/honey-im-home">gotl.itch.io/honey-im-home</a>  
 
