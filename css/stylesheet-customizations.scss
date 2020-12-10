@@ -3,7 +3,7 @@
 ---
 // Put your custom CSS here if you want to override the defaults.
 // Here are some common customizations for colors
-$ohmz-green: lighten(#00488B, 7%);
+$ohmz-lavender: #7289da;
 
 // Customize the background color
 body {
@@ -12,17 +12,17 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-    background: lighten($ohmz-green,10%) !important;
+    background: lighten($ohmz-lavender,10%) !important;
     color: white !important;
     
     &:hover {
       color: white;
-      background-color: darken($ohmz-green, 5%);
+      background-color: darken($ohmz-lavender, 5%);
     }
 
   a.active.item, a.active.item:hover {
     color: white;
-    background-color: lighten($ohmz-green, 5%);
+    background-color: lighten($ohmz-lavender, 5%);
   }
 }
 
@@ -33,20 +33,20 @@ body {
 
 // Customize the home page icon colors
 .icon-color {
-  color: $ohmz-green;
+  color: $ohmz-lavender;
   
   &:hover {
-    background: darken($ohmz-green, 5%) !important;
+    background: darken($ohmz-lavender, 5%) !important;
     color: white !important;
   }
 }
 
 .ui.basic.button, .ui.basic.buttons .button {
-  background: $ohmz-green !important;
+  background: $ohmz-lavender !important;
   color: white !important;
 
   &:hover {
-    background: darken($ohmz-green, 5%) !important;
+    background: darken($ohmz-lavender, 5%) !important;
     color: white !important;
   }
 }
@@ -54,17 +54,17 @@ body {
 // "Read More" buttons
 a.ui.bottom.attached.button {
   color: white;
-  background: $ohmz-green;
+  background: $ohmz-lavender;
 
   &:hover {
-    background: darken($ohmz-green, 5%);
+    background: darken($ohmz-lavender, 5%);
   }
 }
 
 // Tag pill boxes
 div.ui.basic.label {
   color: white;
-  background: $ohmz-green;
+  background: $ohmz-lavender;
 }
 
 .embed-youtube {
