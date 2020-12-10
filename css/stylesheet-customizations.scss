@@ -5,6 +5,25 @@
 // Here are some common customizations for colors
 $ohmz-lavender: #7289da;
 
+p, li {
+    font-size: 12px;
+	color: #DCD0CF;
+  }
+
+  h1, h2.ui.header, h3.ui.header {
+    font-size: 14px;
+	color: $ohmz-lavender;
+  }
+
+  a {
+	  font-size: 12px;
+  }
+
+  ul li {
+    padding: 0px;
+    margin: 0px;
+  }
+
 // Customize the background color
 body {
   background-color: #36393F;
