@@ -12,7 +12,7 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-    background: lighten($ohmz-lavender,5%) !important;
+    background: lighten($ohmz-lavender,2%) !important;
     color: white !important;
     
     &:hover {
@@ -22,7 +22,7 @@ body {
 
   a.active.item, a.active.item:hover {
     color: white;
-    background-color: lighten($ohmz-lavender, 5%);
+    background-color: lighten($ohmz-lavender, 2%);
   }
 }
 
