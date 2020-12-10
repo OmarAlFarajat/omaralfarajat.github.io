@@ -8,8 +8,6 @@ permalink: projects/raytracer
 date: 2018-11-01
 labels:
   - C++
-  - GLM
-  - CImg
 summary: A very simple ray tracer that can render spheres, triangles, planes, and meshes.
 ---
 Source: <a href="https://github.com/OmarAlFarajat/Simple-Ray-Tracer"><i class="large github icon"></i>OmarAlFarajat/Simple-Ray-Tracer</a>
