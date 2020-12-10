@@ -1,14 +1,14 @@
 <!-- Used by theme-projects-builtin-1a, entire card is the link. -->
 
 
-<a class="card" style="background-color:#2F3136;" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+<a class="card" style="background-color:#2F3136;border-color: #36393F;" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   {% if include.page.image %}
   <div class="image">
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
   <div class="content">
-    <span class="header" style="color:#DCD0CF;">{{ include.page.title }}</span>
+    <span class="header" style="color:#36393F;">{{ include.page.title }}</span>
     <div class="meta">
       <span class="date" style="color:#DCD0CF;">{{ include.page.date  | date: '%B %Y'}}</span>
     </div>
