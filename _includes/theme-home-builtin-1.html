@@ -1,5 +1,5 @@
 <!-- Home page design with small circular image bisecting card. -->
-
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
