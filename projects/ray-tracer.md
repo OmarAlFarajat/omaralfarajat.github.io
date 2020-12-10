@@ -5,7 +5,7 @@ image: images/ray-tracer_thumbnail.jpg
 title: Simple Ray Tracer
 permalink: projects/raytracer
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-01
+date: 2018-11-01
 labels:
   - C++
   - GLM

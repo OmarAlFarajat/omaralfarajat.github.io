@@ -5,7 +5,7 @@ image: images/pov-graph_thumbnail.jpg
 title: POV Graph Tool
 permalink: projects/povgraph
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-10
+date: 2020-03-01
 labels:
   - C#
   - Unity

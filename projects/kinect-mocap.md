@@ -5,11 +5,10 @@ image: images/kinect-mocap_thumbnail.jpg
 title: Kinect Motion Capture
 permalink: projects/kinectmocap
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-10
+date: 2019-11-01
 labels:
   - C++
   - OpenGL
-  - Kinect
 summary: Real-time motion capture on a 3D character with recording and playback.
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Kinect-Motion-Capture"><i class="large github icon"></i>OmarAlFarajat/Kinect-Motion-Capture</a>  

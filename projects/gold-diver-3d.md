@@ -5,7 +5,7 @@ image: images/gold-diver-3d_thumbnail.jpg
 title: Gold Diver 3D
 permalink: projects/golddiver3d
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-11
+date: 2019-10-01
 labels:
   - C#
   - Unity

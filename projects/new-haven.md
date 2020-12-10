@@ -5,10 +5,9 @@ image: images/new-haven_thumbnail.jpg
 title: New Haven
 permalink: projects/newhaven
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-14
+date: 2020-03-01
 labels:
   - C++
-  - CImg
 summary: A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
 ---  
 

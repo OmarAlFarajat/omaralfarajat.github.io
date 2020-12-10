@@ -5,7 +5,7 @@ image: images/fitness-app_thumbnail.jpg
 title: Fitness Tracking App
 permalink: projects/fitnessapp
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-01
+date: 2018-11-01
 labels:
   - Java
   - Android

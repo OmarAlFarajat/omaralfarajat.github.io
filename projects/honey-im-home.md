@@ -5,13 +5,12 @@ image: images/honey-im-home_thumbnail.jpg
 title: Honey I'm Home! (CoCo Jam 2020)
 permalink: projects/honeyimhome
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-13
+date: 2020-09-01
 labels:
   - C#
   - Unity
   - Game Jam
-  - WebGL
-summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an inebriated character home to avoid getting a divorce. 
+summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an intoxicated character home. 
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Honey-Im-Home"><i class="large github icon"></i>OmarAlFarajat/Honey-Im-Home</a>  
 

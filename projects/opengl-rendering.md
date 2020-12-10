@@ -5,7 +5,7 @@ image: images/opengl-render_thumbnail.jpg
 title: OpenGL Rendering
 permalink: projects/openglrender
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-01
+date: 2018-10-01
 labels:
   - C++
   - OpenGL
