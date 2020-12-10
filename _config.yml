@@ -7,17 +7,17 @@ title: Omar Al-Farajat | Professional Portfolio
 url: "https://omaralfarajat.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
-remote_theme: "dracula/gh-pages"
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
 bio-page-label: CV
 # You might want to change the theme associated with one or more sections of the site.
 # Defining your own custom theme variations is easy. See the documentation.
-#theme-home: theme-home-builtin-1.html
-#theme-projects: theme-projects-builtin-1a.html
-#theme-essays: theme-essays-builtin-1.html
-#theme-bio: theme-bio-builtin-1.html
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1a.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: theme-bio-builtin-1.html
+remote_theme: "dracula/gh-pages"
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: base16.dark
