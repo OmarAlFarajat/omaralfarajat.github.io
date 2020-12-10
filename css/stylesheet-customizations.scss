@@ -6,31 +6,31 @@
 $ohmz-lavender: #7289da;
 
 p, li, table {
-    font-size: 14px;
+    font-size: 16px;
 	color: #DCD0CF;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 26px;
 	color: $ohmz-lavender;
   }
 
-  h2 {
+  h2.ui.header {
+    font-size: 22px;
+	color: $ohmz-lavender;
+  }
+  
+  h3.ui.header {
     font-size: 20px;
 	color: $ohmz-lavender;
   }
   
-   h3 {
-    font-size: 18px;
-	color: $ohmz-lavender;
-  }
-  
   a {
-	  font-size: 14px;
+	  font-size: 16px;
   }
 
   ul li {
-	font-size: 14px;
+	font-size: 16px;
 	color: #DCD0CF;
     padding: 0px;
     margin: 0px;
