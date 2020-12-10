@@ -3,82 +3,45 @@
 ---
 // Put your custom CSS here if you want to override the defaults.
 // Here are some common customizations for colors
-$ohmz-lavender: #7289da;
-
-p, li, table {
-    font-size: 16px;
-	color: #DCD0CF;
-  }
-
-  h1 {
-    font-size: 26px;
-	color: $ohmz-lavender;
-  }
-
-  h2.ui.header {
-    font-size: 22px;
-	color: $ohmz-lavender;
-  }
-  
-  h3.ui.header {
-    font-size: 20px;
-	color: $ohmz-lavender;
-  }
-  
-  a {
-	  font-size: 16px;
-  }
-
-  ul li {
-	font-size: 16px;
-	color: #DCD0CF;
-    padding: 0px;
-    margin: 0px;
-  }
+$ohmz-green: lighten(#00488B, 7%);
 
 // Customize the background color
 body {
-  background-color: #36393F;
+  //background-color: #929292;
 }
 
 // Customize the menubar color
 .ui.menu {
-    background: lighten($ohmz-lavender,2%) !important;
+    background: lighten($ohmz-green,10%) !important;
     color: white !important;
     
     &:hover {
       color: white;
-      background-color: darken($ohmz-lavender, 5%);
+      background-color: darken($ohmz-green, 5%);
     }
 
   a.active.item, a.active.item:hover {
     color: white;
-    background-color: lighten($ohmz-lavender, 2%);
+    background-color: lighten($ohmz-green, 5%);
   }
-}
-
-.ui.card {
-	background-color: #2F3136;
-    color: white !important;
-	border-color: $ohmz-lavender;
 }
 
 // Customize the home page icon colors
 .icon-color {
-  color: $ohmz-lavender;
+  color: $ohmz-green;
   
   &:hover {
-    background: darken($ohmz-lavender, 5%) !important;
+    background: darken($ohmz-green, 5%) !important;
     color: white !important;
   }
 }
 
 .ui.basic.button, .ui.basic.buttons .button {
-  background: $ohmz-lavender !important;
+  background: $ohmz-green !important;
   color: white !important;
 
   &:hover {
-    background: darken($ohmz-lavender, 5%) !important;
+    background: darken($ohmz-green, 5%) !important;
     color: white !important;
   }
 }
@@ -86,17 +49,17 @@ body {
 // "Read More" buttons
 a.ui.bottom.attached.button {
   color: white;
-  background: $ohmz-lavender;
+  background: $ohmz-green;
 
   &:hover {
-    background: darken($ohmz-lavender, 5%);
+    background: darken($ohmz-green, 5%);
   }
 }
 
 // Tag pill boxes
 div.ui.basic.label {
   color: white;
-  background: $ohmz-lavender;
+  background: $ohmz-green;
 }
 
 .embed-youtube {
