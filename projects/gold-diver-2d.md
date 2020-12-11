@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/gold-diver-2d_thumbnail.jpg
-title: Gold Diver 2D
+title: Gold Diver
 permalink: projects/golddiver2d
 # All dates must be YYYY-MM-DD format!
 date: 2019-09-01
