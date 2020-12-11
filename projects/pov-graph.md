@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/pov-graph_thumbnail.jpg
-title: POV Graph Tool
+title: POV Graph
 permalink: projects/povgraph
 # All dates must be YYYY-MM-DD format!
 date: 2020-03-01
 labels:
   - C#
   - Unity
-summary: Unity editor tool that creates POV pathfinding graphs for simple levels. 
+summary: A proof-of-concept of POV graphs and A* search pathfinding. 
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Unity-POV-Graph"><i class="large github icon"></i>OmarAlFarajat/Unity-POV-Graph</a>
 ## Introduction

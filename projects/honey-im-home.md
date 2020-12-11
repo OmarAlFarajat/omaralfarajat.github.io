@@ -9,7 +9,7 @@ date: 2020-09-01
 labels:
   - C#
   - Unity
-summary: Developed over 48 hours as part of CoCo Jam 2020. A 2D obstacle-avoiding game where you help guide an intoxicated character home. 
+summary: A 2D obstacle-avoiding game where you help guide an intoxicated character home. Submitted to CoCo Jam 2020. The theme was "no pain, no gain".  
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Honey-Im-Home"><i class="large github icon"></i>OmarAlFarajat/Honey-Im-Home</a>  
 

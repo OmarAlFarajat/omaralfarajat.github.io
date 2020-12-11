@@ -8,7 +8,7 @@ permalink: projects/newhaven
 date: 2020-04-01
 labels:
   - C++
-summary: A recreation of the New Haven board game using C++ and the CImg header-only library for visualization.
+summary: A recreation of the New Haven board game using C++ and the CImg header-only library to visualize the gameboard.
 ---  
 
 **Source:** <a href="https://github.com/OmarAlFarajat/New-Haven-Board-Game"><i class="large github icon"></i>OmarAlFarajat/New-Haven-Board-Game</a>  
