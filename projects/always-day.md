@@ -9,7 +9,7 @@ date: 2020-10-01
 labels:
   - C#
   - Unity
-summary: A 3D isometric platformer. Submitted to the GJL Game Parade 2020. The theme was "Carpe diem" or "Seize the day". Ranked 18th out of 80 entries in community overall rating.
+summary: A 3D isometric platformer. Submitted to the GJL Game Parade 2020. The theme was "Carpe diem" or "Seize the day". Ranked 18th out of 80 entries in community rating.
 ---
 **Source:** <a href="https://github.com/OmarAlFarajat/Always-Day"><i class="large github icon"></i>OmarAlFarajat/Always-Day</a>  
 <br>
